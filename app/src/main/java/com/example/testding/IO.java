@@ -2,14 +2,11 @@ package com.example.testding;
 
 import java.util.Scanner;
 
-public class IO {
+public class IO { //wow wat ben ik toch creatief
 
     public static String invoer() {
-        //ughh... todo: alles een '''logische''' naam geven.
-        //+ stuk code uit main hiernaar toe copypasta/en
-        //dus dit stukje zorgt ervoor dat het de input verwerkt
         System.out.println("*  ");
-        Scanner scanner = new Scanner(System.in); //rip scanner mcscanface
+        Scanner mcscanface = new Scanner(System.in);
         String invoer = scanner.nextLine();
         invoer = invoer.toLowerCase(); //zet de invoer om in kleine letters bc reasons
         return invoer;
@@ -19,10 +16,10 @@ public class IO {
         if (!invoer.isEmpty()) { //oke ik was dus vergeten dat je strings niet met elkaar kan vergelijken
             switch (invoer) { //yaay een switch statement
                 case "kijk":
-                    Locatie.Kijk(invoer);
+                    System.out.println(">> Wat wil je zien?");
                     break;
                 case "ga":
-                    System.out.println(">> Ga waarheen?");
+                    System.out.println(">> Waar wil je heen?");
                     break;
                 case "help":
                     System.out.println(">> Je kan de volgende locaties bezoeken: \"Straat\", \"Park\", \"Pond\", \"Steegje\", \"???\".");
