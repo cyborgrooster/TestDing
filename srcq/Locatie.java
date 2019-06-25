@@ -1,4 +1,4 @@
-package com.example.testding;
+package textding;
 
 public class Locatie {
     //locatie opslaan in een array?
