@@ -12,7 +12,7 @@ public class IO { //wow wat ben ik toch creatief
         return invoer;
     }
 
-    public static void verwerk(String invoer) {//stackoverflow is mijn bestie atm lel
+    public static void verwerk(String invoer) {
         if (!invoer.isEmpty()) { //oke ik was dus vergeten dat je strings niet met elkaar kan vergelijken
             switch (invoer) { //yaay een switch statement
                 case "kijk":
