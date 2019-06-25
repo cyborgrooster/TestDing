@@ -1,4 +1,4 @@
-package com.example.testding;
+package textding;
 
 import java.util.Scanner;
 
