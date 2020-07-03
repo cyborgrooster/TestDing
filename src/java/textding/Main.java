@@ -1,8 +1,8 @@
 package textding;
 
-//import java.util.Scanner;
+import java.util.Scanner;
 
-public class Textding {
+public class Main {
     
     public static void main(String[] args) {
         //ik weet niet wat ik aan het doen ben tbh.
@@ -11,6 +11,10 @@ public class Textding {
         while(true){ //blijft doorgaan tot dat je het zelf stopt.
             IO.verwerk(IO.invoer()); //dit.. is idek. 
             //ik heb goed gegokt lmao
+            // TODO: fix infinite loop.
+            //  please
+            //  please
+            //  oke
         }
     }
 }
